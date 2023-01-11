@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # specify the folder that contains the TIF images
-image_folder = r'C:\Users\23480\Documents\Paper\Anna Grant\extracted files'
+image_folder = "path/to/folder"
 image_files = [f for f in os.listdir(image_folder) if f.endswith('.tif')]
 
 # specify the x,y pixel coordinates of the pixel that you want to extract
